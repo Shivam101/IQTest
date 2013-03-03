@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IQTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_easy1">Easy1</string>
+    <string name="title_activity_easy2">Easy2</string>
+    <string name="title_activity_easy3">Easy3</string>
+    <string name="title_activity_easy4">Easy4</string>
+    <string name="title_activity_easy5">Easy5</string>
+    <string name="title_activity_difficult1">Difficult1</string>
+    <string name="title_activity_difficult2">Difficult2</string>
+    <string name="title_activity_difficult3">Difficult3</string>
+    <string name="title_activity_difficult4">Difficult4</string>
+    <string name="title_activity_difficult5">Difficult5</string>
+    <string name="welcome2">Choose your difficulty level below to begin</string>
+    <string name="welcome">&quot;Welcome to Shivam's IQTest&quot;</string>
+    <string name="welcome3">You will face a series of 5 questions at the end of which you will know your score</string>
+    <string name="easy">Easy</string>
+    <string name="difficult">Difficult</string>
+    <string name="q1easy">QUESTION 1</string>
+    <string name="easy1">&quot;Which of the following numbers best completes the series?&quot;</string>
+    <string name="easy11">&quot;3 9 81 ? 4304721&quot;</string>
+    <string name="q2easy">QUESTION 2</string>
+    <string name="q3easy">QUESTION 3</string>
+    <string name="q4easy">QUESTION 4</string>
+    <string name="q5easy">QUESTION 5</string>
+    <string name="q1difficult">QUESTION 1</string>
+    <string name="q2difficult">QUESTION 2</string>
+    <string name="q3difficult">QUESTION 3</string>
+    <string name="q4difficult">QUESTION 4</string>
+    <string name="q5difficult">QUESTION 5</string>
+    <string name="easy2">Complete the following sequence of characters</string>
+    <string name="easy21">a g l ? s</string>
+    <string name="easy31">&quot;Which of the following is least like the other 3?&quot;</string>
+    <string name="easy51">&quot;How many men does it take to dig half a hole?&quot;</string>
+    <string name="easy41">&quot;Which of the following numbers fits the empty box?&quot;</string>
+    <string name="easy411">17   8   5   5</string>
+    <string name="easy412">13   7   5   4</string>
+    <string name="easy413"> 6   12   6   3</string>
+    <string name="easy414">10   6   4   ?</string>
+    <string name="diff1">&quot;Rearrange the words and pick the category where it belongs.&quot;</string>
+    <string name="diff11">&quot;RAPETEKA&quot;</string>
+    <string name="diff2">&quot;Find the answer that best completes the analogy:&quot;</string>
+    <string name="diff21">&quot;PEOPLE:DEMOCRACY::WEALTHY: ?&quot;</string>
+    <string name="diff3">&quot;At the end of a banquet, 10 people shake hands with each other. How may handshakes are there in total?&quot;</string>
+    <string name="diff4">&quot;Name this famous mascot's company&quot;</string>
+    <string name="diff5">&quot;Crack the following code :&quot;</string>
+    <string name="diff51">&quot;165135 is to PEACE as 1215225 is to ?&quot;</string>
+    <string name="title_activity_resulte">Resulte</string>
+    <string name="title_activity_resultd">Resultd</string>
+
+</resources>

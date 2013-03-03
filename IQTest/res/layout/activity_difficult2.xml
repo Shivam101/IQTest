@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Easy1"
+android:background="@color/black"     >
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/q2difficult"
+        android:textSize="30sp"
+        android:textColor="@color/red"
+         />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/diff2" 
+        android:textColor="@color/white"
+        />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:text="@string/diff21"
+        android:layout_below="@id/tv5"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv6"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Move to Question 3" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" >
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv6"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="Aristocracy" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignBaseline="@+id/rbtn1"
+            android:layout_alignBottom="@+id/rbtn1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Plutocracy" />
+
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rbtn1"
+            android:textColor="@color/white"
+            android:layout_below="@+id/radioGroup1"
+            android:text="Oligarchy" />
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rbtn2"
+            android:textColor="@color/white"
+            android:layout_below="@+id/radioGroup1"
+            android:text="Timocracy" />
+    </RadioGroup>
+
+</RelativeLayout>

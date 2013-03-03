@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Easy1"
+android:background="@color/black"     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/q5difficult" 
+        android:textSize="30sp"
+        android:textColor="@color/red"
+        android:id="@+id/tv4"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:text="@string/diff5"
+        android:layout_below="@id/tv4"
+        android:id="@+id/tv5"
+        android:layout_marginTop="20dp"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:text="@string/diff51"
+        android:layout_below="@id/tv5"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv6"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:textColor="@color/green"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="See your result" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp" >
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv6"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="Loop" />
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rbtn1"
+            android:layout_alignBottom="@+id/rbtn1"
+            android:textColor="@color/white"
+            android:layout_alignRight="@+id/tv4"
+            android:text="Love" />
+
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rbtn1"
+            android:layout_below="@+id/rbtn1"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="Lead" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rbtn4"
+            android:layout_alignBottom="@+id/rbtn4"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/rbtn3"
+            android:text="Castle" />
+    </RadioGroup>
+
+</RelativeLayout>

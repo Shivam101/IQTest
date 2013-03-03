@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultd"
+    android:orientation="vertical"
+    android:background="@color/red"
+     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Thank you for taking this IQ Test!!"
+        android:id="@+id/final4"
+        android:textColor="@color/black"
+         />
+   <TextView
+        android:id="@+id/final5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"
+        android:text="Your final score is"
+        android:textColor="@color/black"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/final2"
+        android:layout_marginTop="175dp"
+        android:textColor="@color/green"
+        android:layout_marginLeft="100dp"
+        android:text="hello"
+        android:textSize="50sp"
+        android:id="@+id/final6"
+      />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:text="Try Again"
+        android:id="@+id/restarte"
+        android:textColor="@color/green" />
+
+    
+
+</LinearLayout>
